@@ -1,0 +1,393 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(22, 1, 1)
+}
+.container{
+    width: 95%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(22, 1, 1)
+    
+}
+.header-parent{
+    width: 95%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    background-image: url(../images/Md-Nizam-uddin.jpeg);
+    background-size: cover;
+    animation: logo infinite 5s;
+    border-radius: 50px;
+}
+@keyframes logo {
+    0%{
+        background: url(images/background.png);
+        background-size: cover;
+    }
+    25%{
+        background: url(images/md-nizamuddin\ \(1\).jpeg);
+        background-size: cover;
+    }
+    50%{
+        background: url(images/nizam.png);
+        background-size: cover;
+    }
+    75%{
+        background: url(images/background.png);
+        background-size: cover;
+    }
+    100%{
+        background: url(images/mdNizamuddin.JPG);
+        background-size: cover;
+    }
+}
+.menu ul{
+    display: inline-flex;
+    
+   
+}
+.menu ul li{
+    list-style-type: none;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 50px;
+    color: aqua;
+}
+.first-section{
+    width: 95%;
+    margin: auto;
+}
+.hero-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section .hero-text{
+    width: 50%;
+    height: 99%;
+    margin: 50px auto;
+    font-size: 50px;
+    text-align: center;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-img{
+    width: 50%;
+    height: 99%;
+    background: url(images/background.png);
+    background-size: cover;
+    border-radius: 50%;
+    animation: logo infinite 5s;
+}
+.second-section{
+    width: 95%;
+    margin: auto;
+}
+.about-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+    width: 40%;
+    height: 99%;
+    background: url(images/background.png);
+    background-size: cover;
+    border-radius: 50%;
+    animation: logo infinite 5s;
+}
+.about-section .about-text{
+    width: 50%;
+    height: 99%;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 50px;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.second-section h2{
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.service-section{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 400px;
+    height: 550px;
+    background: orange;
+}
+.card-img{
+    width: 100%;
+    height: 300px;
+    background: url(../images/grow\ your\ business.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation: card infinite 7s;
+}
+.card-img2{
+    width: 100%;
+    height: 300px;
+    background: url(images/I\ will\ create\ responsive\ Real\ Estate\ Landing\ page\ or\ Website.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation: card2 infinite 9s;
+}
+.card-img3{
+    width: 100%;
+    height: 300px;
+    background: url(images/I\ will\ convert\ PSD\ to\ HTML\ \ figma\ to\ HTML\ \ xd\ to\ HTML\ CSS\ bootstrap\ 5\ responsive\ website.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation: card3 infinite 9s;
+}
+@keyframes card{
+    0%{
+        background: url(images/facebook-marketing.png);
+        background-size: cover;
+    }
+    50%{
+        background: url(images/grow\ your\ business.jpg);
+        background-size: cover;
+    }
+100%{
+    background: url(images/facebook-marketing.png);
+    background-size: cover;
+}
+}
+.card h3{
+    font-size: 50px;
+    text-align: center;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes card2{
+    0%{
+        background: url(images/I\ will\ design\ or\ redesign\ responsive\ wordpress\ website\ or\ landing\ page\ with\ elementor.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(images/I\ will\ create\ responsive\ Real\ Estate\ Landing\ page\ or\ Website.png);
+        background-size: cover;
+    }
+100%{
+    background: url(images/WORDPRESS.png);
+    background-size: cover;
+}
+}
+@keyframes card3{
+    0%{
+        background: url(images/I\ will\ develop\ responsive\ website\ by\ html\ CSS\ jQuery\ and\ bootstrap.jpg);
+        background-size: cover;
+    }
+    50%{
+        background: url(images/I\ will\ convert\ PSD\ to\ HTML\ \ figma\ to\ HTML\ \ xd\ to\ HTML\ CSS\ bootstrap\ 5\ responsive\ website.jpg);
+        background-size: cover;
+    }
+100%{
+    background: url(images/I\ will\ develop\ responsive\ website\ by\ html\ CSS\ jQuery\ and\ bootstrap.jpg);
+    background-size: cover;
+}
+}
+.card h3{
+    font-size: 50px;
+    text-align: center;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card p{
+    text-align: justify;
+    padding: 0 9px;
+}
+button{
+    width: 100%;
+    background: black;
+    color:blanchedalmond;
+    padding: 20px;
+}
+.third-section{
+    width: 95%;
+    margin: auto;
+}
+
+.third-section h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-parent{
+    background-color: #EAECF0;
+    display: flex;
+}
+.fullname-email-parent{
+    display: flex;
+}
+.fullname-email-parent input{
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.fullname-email-parent h4{
+    margin: 40px 20px 10px 20px;
+}
+.form-tag{
+    width: 600px;
+}
+.subject-input-text{
+    margin: 20px 20px 10px 20px;
+}
+.subject-input{
+    width: 85%;
+    height: 40px;
+    margin: 0 20px;
+    border: none;
+    padding: 0 10px;
+}
+.form-textarea{
+    width: 85%;
+    height: 100px;
+    border: none;
+    margin: 0 20px;
+    padding: 5px 10px;
+}
+.form-button{
+    
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-address-parent{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.form-single-address{
+    text-align: center;
+}
+.form-single-address i{
+    background-color: #3252AF;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.form-single-address span{
+    font-weight: bold;
+}
+.form-parent h4{
+    font-size: 30px;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer{
+    width: 95%;
+    margin: auto;
+    background: #1A1244
+}
+.footer-area{
+    display: flex;
+    justify-content: space-between;
+    color: bisque;
+}
+.footer-part-one{
+    margin-left: 9px;
+    text-align: justify;
+}
+.footer-part-one img{
+   padding-left: 9px;
+   margin-left: 90px;
+}
+.footer-part-two ul li{
+    list-style-type: circle;
+}
+.footer-part-two ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer-part-three h2{
+    text-align: center;
+    padding-right: 50px;
+    font-size: 30px;
+    background: url(images/two-color-smoke-mix-fln47lm0ljgoquku.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.socilaIcon > a{
+    color: blue;
+    text-decoration: none;
+}
+.socilaIcon > a > i{
+    width: 50px;
+    height: 50px;
+    line-height: 1.6;
+    margin: 10px 5px;
+    font-size: 30px;
+    background-color: rgba(0, 128, 0, 0);
+    padding: 5px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.socilaIcon > a > i:hover{
+    background-color: aqua;
+    border: 2px solid green;
+    transform: rotate(360deg) scale(.5);
+    transition: .9s;
+}
+#facebook{
+    color:  #1877F2;
+}
+#youtube{
+    color: #FF0000
+}
+
+
+#linkedin{
+    color: #0A66C2;
+}
